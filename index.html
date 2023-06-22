@@ -137,10 +137,15 @@
                   Bangalore, India &nbsp; · &nbsp; <em> June 2019 - Aug 2019 </em>
                   <br>
                   <p>
-                    Automated the shards generation process used in the Employee review system by posing it as an optimization problem. This improved the response time of the existing interview scheduling planner from 10sec to < 1sec.
+                    Developed an image-based localization challenge at AutoNUE2 workshop held in conjunction with ICCV-2019. Advisor:
+                    Anbumani Subramanian. Skills: Software Development, Computer Vision, C++, SLAM, Machine Learning.
                   </p>
                   <p>
-                    Prototyped a web app to allow users to add new constraints in the shard generation process.
+                    Proposed and implemented an evaluation metric and a baseline for the localization task, using ORB-SLAM2
+(Feature-based SLAM system) on monocular images from IDD Localization challenge.
+                  </p>
+                  <p>
+                    Created a data-set(IDD Multimodal, which has data from various sensors like Stereo Images, GPS, LIDAR) from IDD dataset, containing 10000 images from 182 drive sequence on Indian road. for the challenge.
                   </p>
                   <p>
                     <b>Technologies</b>: Python, C, C++, Shell
@@ -247,20 +252,16 @@
         
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto; cellpadding:10px;"><tbody>
-          <tr id="co_cnn" style="">
+          <tr id="deep_image_matting" style="">
             <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
               <table style="width: 100%;"> <tr>
-                <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
-                  <img style="vertical-align: middle; width: 95%; margin-left: auto; margin-right: auto; display: block;" src="images/CoCNN.png">
-                </td>
                 <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
-                  <papertitle>Human Parsing with Contextualized Convolutional Neural Network</papertitle>
+                  <papertitle>Deep Image Matting</papertitle>
                   <br>
-                  Implemented the task of human parsing using Deep Learning, by combining four types of contextual information from the image into a unified deep CNN, utilizing Pytorch. Achieved an average accuracy of 74% across 18 categorical output labels. Created a detailed analysis of various model training and performance metrics using Tensorboard.
+                  Implemented a encoder-decoder neural network which implements a procedure to separate the foreground from the background of the image. Project involves using deep learning, computer vision and machine learning concepts to complete the model, train and test it.
                   <br>
                   <b>Technologies</b>: Python, Pytorch <br/>
-                  <b>Project Summary</b>: <a href="https://github.com/agentcap/CoCNN/blob/master/CV-Project-Report.pdf">link</a> <br/>
-                  <b>Github</b>: <a href="https://github.com/agentcap/CoCNN">link</a>
+                  <b>Github</b>: <a href="https://github.com/appari/deep-image-matting">link</a>
                 </td>
               </tr>  </table>
             </td>
@@ -278,27 +279,23 @@
                     Developed a bot using alpha beta heuristic search and minimax algorithm to play tic-tac-toe against other bots or human in a 16 X 16 grid.
                   <br>
                   <b>Technologies</b>: Python <br/>
-                  <b>Github</b>: <a href="https://github.com/agentcap/Ultimate-Tic-Tac-Toe/">link</a>
+                  <b>Github</b>: <a href="https://github.com/appari/Ultimate-Tic-Tac-Toe">link</a>
                 </td>
               </tr>  </table>
             </td>
           </tr>
 
-          <tr id="bfs_search" style="">
+          <tr id="image_classification" style="">
             <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
               <table style="width: 100%;"> <tr>
-                <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
-                  <img style="vertical-align: middle; width: 95%; margin-left: auto; margin-right: auto; display: block;" src="images/BFS.png">
-                </td>
                 <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
-                  <papertitle>Breadth-first search in distributed environment</papertitle>
+                  <papertitle>Multi-class face images classification</papertitle>
                   <br>
-                    Implemented a breadth-first search in distributed environment using algorithms such as sequential search, parallel search using message passing, 1D partitioning and 2D partitioning techniques. Provided a detailed analysis on each of the algorithms considering different metrics such as time complexity, message space complexity etc.
+                  Developed algorithms for multi-label classification of face images using dimensionality reduction by performing Principle component analysis. Used ML algorithms such as Naive Bayes and Linear classifier for multi-class classification tasks.
                   <br>
-                  <b>Technologies</b>: Erlang, Python <br/>
-                  <b>Project summary</b>: <a href="https://docs.google.com/presentation/d/145ApQWFeRK0wQYRjvGWcCrAXyuiNfmbnHEOpal9cM-8/edit?usp=sharing">link</a> <br/>
-                  <b>Github</b>: <a href="https://github.com/agentcap/BFS-erlang">link</a>
+                  <b>Technologies</b>: Python
                 </td>
+               
               </tr>  </table>
             </td>
           </tr>
@@ -315,7 +312,7 @@
                     Implemented a multi-threaded proxy server which servers multiple requests from users using TCP/UDP protocols for file transfer with LRU (least recently used) caching for faster file transfer.
                   <br>
                   <b>Technologies</b>: Python <br/>
-                  <b>Github</b>: <a href="https://github.com/agentcap/HTTP-Proxy-Server">link</a>
+                  <b>Github</b>: <a href="https://github.com/appari/Proxy-Server.git">link</a>
                 </td>
               </tr>  </table>
             </td>
@@ -330,7 +327,7 @@
                 <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
                   <papertitle>Mini Linux Shell</papertitle>
                   <br>
-                    Developed a user-interactive Unix shell in C using syscalls to implement command parsing and execution,piping, input and output redirection, managing background processes, signal handling.
+                    Developed a user-interactive Unix shell in C using syscalls to implement command parsing and execution ,piping, input and output redirection, managing background processes, signal handling.
                   <br>
                   <b>Technologies</b>: C++
                 </td>
@@ -350,7 +347,7 @@
                     Developed games similar to Mario (2D), Legend of Zelda (3D) and Tunnel Rush (3D) using OpenGL (C++) and WebGL (Javascript). Incorporated particle effects, projectile physics and collider mechanics in the games developed.
                   <br>
                   <b>Technologies</b>: C++ <br/>
-                  <b>Github</b>: <a href="https://github.com/agentcap/Tunnel-Rush">Tunnel-Rush</a>, <a href="https://github.com/agentcap/2D-Game-Pac-Man-Killer">2D-Game-Pac-Man-Killer</a>, <a href="https://github.com/agentcap/3D-Game-Legend-of-Zelda">3D-Game-Legend-of-Zelda</a>
+                  <b>Github</b>: <a href="https://github.com/appari/Tunnel-Rush">Tunnel-Rush</a>, <a href="https://github.com/appari/2D-Game-Pac-Man-Killer">2D-Game-Pac-Man-Killer</a>, <a href="https://github.com/appari/Legends-Of-Zelda">3D-Game-Legend-of-Zelda</a>
                 </td>
               </tr>  </table>
             </td>
