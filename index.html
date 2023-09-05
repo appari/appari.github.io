@@ -247,8 +247,68 @@
             </td>
           </tr>
         </tbody></table>
+
+        <tr id="echo-video-segmentation" style="">
+          <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
+            <table style="width: 100%;"> <tr>
+              <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
+                <img style="vertical-align: middle; width: 95%; margin-left: auto; margin-right: auto; display: block;" src="images/echo.gif">
+                <br>  <br>  <br>  <br>
+                <img style="vertical-align: middle; width: 95%; margin-left: auto; margin-right: auto; display: block;" src="images/echo-abnormal.png">
+              </td>
+              <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                <papertitle>Echocardiogram Video Segmentation</papertitle>
+                <br>
+                
+                <ul>
+                  <li>EchoNet-Dynamic is a project centered around the processing of apical-4-chamber view echocardiogram videos.</li>
+                  <li>It offers a comprehensive codebase to facilitate work with these videos, allowing for utilization from their provided dataset or conversion of DICOM files to AVI format using a Jupyter Notebook.</li>
+                  <li>The project's code encompasses three primary components:
+                      <ul>
+                          <li>Foremost is the segmentation of the left ventricle achieved through frame-by-frame semantic segmentation.</li>
+                          <li>The segmentation process undergoes rigorous testing and is then applied to custom datasets.</li>
+                          <li>The overarching goal of the project is to provide valuable insights into the segmentation of the left ventricle in echocardiogram videos, supplemented by tools tailored for effective data handling and in-depth analysis.</li>
+                      </ul>
+                  </li>
+                  <li>The project's scope extends to the development and rigorous testing of segmentation algorithms such as deeplabv4, employing varying backbones like 'deeplabv3_resnet101', 'deeplabv3_resnet101', and 'deeplabv3_mobilenetv3_large'.</li>
+                  <li>Furthermore, a performance evaluation of these networks is conducted using a diverse echocardiogram video dataset (CAMUS).</li>
+                  <li>By tracking the size of the left ventricle at different phases of the heart, the project contributes to the detection of abnormal heart conditions, leveraging size variations as potential indicators of such conditions.</li>
+              </ul>
+                <br>
+                <b>Technologies</b>: Python, Pytorch, Opencv, SimpleITK <br/>
+                <b>Github</b>: <a href="https://github.com/appari/Echocardiogram-video-segmentation">link</a>
+              </td>
+            </tr>  </table>
+          </td>
+        </tr>
         
-       
+        <tr id="wound-sensor-registration" style="">
+          <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
+            <table style="width: 100%;"> <tr>
+              <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
+                <img style="vertical-align: middle; width: 95%; margin-left: auto; margin-right: auto; display: block;" src="images/wound_resuilts.png">
+                <br><br><br>
+                <img style="vertical-align: middle; width: 95%; margin-left: auto; margin-right: auto; display: block;" src="images/wound_results2.png">
+
+              </td>
+              <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                <papertitle>Wound Sensor Registration</papertitle>
+                <p><strong>In-depth Project: Sensor Color Change Analysis for Concentration Correlation</strong></p>
+                <ul>
+                    <li>Investigated the correlation between color changes in a wound sensor and sample concentration, utilizing image processing techniques.</li>
+                    <li>Implemented an alternative approach involving color filtering and circular sensor geometry due to challenges with traditional image registration.</li>
+                    <li>Conducted image preprocessing to extract sensor regions and detect circular structures for analysis.</li>
+                    <li>Quantified color changes in sensor regions pre and post wound exposure, analyzing their relationship with sample concentration.</li>
+                    <li>Leveraged insights to enhance understanding of sensor behavior under varying concentrations, contributing to wound monitoring and healthcare applications.</li>
+                </ul>
+                
+                <b>Technologies</b>: Python, Opencv <br/>
+                <b>Github</b>: <a href="https://github.com/appari/wound-sernor-registration">link</a>
+              </td>
+            </tr>  </table>
+          </td>
+        </tr>
+
         <tr id="deep-image-matting" style="">
           <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
             <table style="width: 100%;"> <tr>
